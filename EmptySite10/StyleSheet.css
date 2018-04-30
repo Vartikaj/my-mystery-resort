@@ -1,0 +1,167 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#long
+{
+    
+    width: 100%;
+    height: auto;
+    background-image: url('Images/Potter.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+}
+#long #long1
+{
+    width: 100%;
+    height: auto;
+    background:rgba(0,0,255,0.5);  
+}
+#long #long1 #inner1
+{
+    width: 100%;
+    height: 150px;  
+}
+#long #long1 #inner1 #inner1a
+{
+    width: 20%;
+    height: 200px;
+    background-image: url('Images/harySym.png');
+    background-repeat: no-repeat;
+    background-size: 60% 200px;
+    float: left;
+    margin-top: 10px;
+}
+
+#long #long1 #inner1 #inner1b
+{
+    width: 80%;
+    height: 150px;
+    float:left;
+    overflow: hidden;
+}
+
+#long #long1 #inner1 #inner1b p
+{
+    font-size:100px;
+    color: #fff;
+  
+    font-family: Cooper;
+    margin-top: 20px;
+  padding-left: 10%;
+    text-shadow: 8px 5px 2px  gray;
+}
+
+#long #long1 #inner2
+{
+    width: 100%;
+     height:500px;
+}
+#long #long1 #inner2 #inner2a
+{
+   width: 60%;
+   height:460px; 
+  padding-left: 150px;
+  padding-top: 20px;
+       
+}
+#long #long1 #inner2 #inner2a #inner2a1
+{
+    width: 70%;
+    height: 400px;
+}
+#long #long1 #inner2 #inner2a #inner2a1 #inner2a1a
+{
+    width: 15%;
+    height: 400px;
+    background: black;
+    background-size: 900px 990px;
+}
+#long #long1 #inner2 #inner2a #inner2a1 #inner2a1b
+{
+    width: 85%;
+    height: auto;
+    float: left;
+    background:linear-gradient(gray,black);
+    margin-top: -400px;
+   padding-right: 10px;
+    float: right;
+    position: relative;
+    box-shadow: 10px 10px 20px gray;
+    transform-style: preserve-3d;
+   perspective: 1599px;
+     
+}
+
+#long #long1 #inner2 #inner2a #inner2a1 #inner2a1b #page1
+{
+width: 100%;
+    height: auto;
+    position: absolute;
+   
+    transform-origin: 0% 50%;
+    transition: 3s;    
+}
+/*#page1:hover
+{
+    transform: rotateY(-90deg);
+    
+}*/
+#long #long1 #inner2 #inner2a #inner2a1 #inner2a1b #div1
+{
+     width: 100%;
+    height: 440px;
+    background:linear-gradient(gray,black); 
+    transform-origin: 0% 50%;
+   
+    transition: 3s;
+   
+    padding-left: 5px;
+    padding-right: 5px;  
+}
+#long #long1 #inner2 #inner2a #inner2a1 #inner2a1b #div2
+{
+     width: 100%;
+    height: 440px;
+    background:linear-gradient(gray,black); 
+    transform-origin: 0% 50%;
+    margin-top: -440px;
+    transition: 3s;
+ 
+    padding-left: 5px;
+    padding-right: 5px;  
+}
+#long #long1 #inner2 #inner2a #inner2a1 #inner2a1b #div3
+{
+     width: 100%;
+    height: 440px;
+    background:linear-gradient(gray,black); 
+    transform-origin: 0% 50%;
+    margin-top: -440px;
+    transition: 3s;
+    
+    padding-left: 5px;
+    padding-right: 5px;  
+}
+
+#long #long1 #inner2 #inner2a #inner2a1 #inner2a1b #div1 #p2
+{
+  font-size: 40px;
+  font-family: 'French Script MT';
+   word-spacing: 40px;
+   color: #ffffff;
+   
+   
+}
+
+#p1 {
+    font-size: 20px;
+    word-spacing: 20px;
+    color: AntiqueWhite;
+}
+
+
