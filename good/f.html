@@ -1,0 +1,54 @@
+<html>
+    <body>
+    	<p id="r">get location by clicking the button...</p>
+    	<button onclick="cli()">get location</button>
+    	<script>
+    		var f=document.getElementById("r");
+          function cli()
+          {
+          	if(navigator.getlocation)
+    		{
+    			navigator.getlocation.getCurrentPosition(getPosi,showError);
+    		}
+    		else
+    		{
+    			f.innerHTML="geolocation is not supported in browser";
+    		}
+          }
+
+          function getPosi(a)
+          {
+               f.innerHTML="latitude:"+a.coords.latitude+"<br>"+"altitude:"+a.coords.altitude;
+          }
+
+          function showError(b)
+          {
+          	switch(b.code)
+          	{
+          		case b.POSITION_DENIDE:
+          		{
+          			f.innerHTML="user denide your permisition";
+          			break;
+          		}
+          		case b.POSITION_UNAVAILABLE:
+          		{
+          			f.innerHTML="user position is not available write now";
+          			break;
+          		}
+          		case b.TIMEOUT:
+          		{
+          			f.innerHTML="your time out for retriving user position";
+                    break;
+          		}
+          		case b.UNKNOWN_ERROR:
+          		{
+          			f.innerHTML="unknow error is occour";
+          			break;
+          		}
+          	}
+          }
+    		
+    	</script>
+
+	</body>
+</html>
